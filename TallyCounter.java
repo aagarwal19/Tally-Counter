@@ -10,13 +10,13 @@ public class TallyCounter
 	private int count; 
 	//Constructor: starting at 0; no return type and same name as class 
 	
-	public TalleyCounter() 
+	public TallyCounter() 
 	{ 
 		count = 0;
 	}
 	//Constructor: starting at any number of choice 
 	
-	public TalleyCounter(int startNum) 
+	public TallyCounter(int startNum) 
 	{ 
 		count = startNum; 
 	} 
@@ -43,5 +43,10 @@ public class TallyCounter
 	public void unclick()
 	{
 		count = count - 1;
+		// could also write count--
+	}
+	public String toString()
+	{
+		return "count: " + count; 
 	}
 }
