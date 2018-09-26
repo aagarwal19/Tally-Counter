@@ -18,7 +18,9 @@ public class TalleyCounterMain
 		System.out.println(counter1.getCount());
 		counter1.reset();
 		System.out.println(counter1.getCount());
-		System.out.println(counter2);
+		System.out.println(counter2.toString);
+		//Dont need to write toString because already in first class
+		//Could also do system.out.println(str);
 	}
 
 }
